@@ -7,6 +7,20 @@ export const metadata: Metadata = {
   title: "FocusForge — 60-Day Study Tracker",
   description:
     "Track your 60-day Python + DSA placement prep roadmap: daily sessions, streaks, calendar consistency, and analytics.",
+  keywords: ["study tracker", "placement prep", "DSA", "LeetCode", "streak tracker", "60 day challenge", "Next.js"],
+  authors: [{ name: "Sanjeev", url: "https://github.com/sanjeev-builds" }],
+  openGraph: {
+    title: "FocusForge — 60-Day Study Tracker",
+    description: "Track daily sessions, streaks, and analytics for your placement prep. Built with Next.js, Framer Motion & Recharts.",
+    type: "website",
+    locale: "en_US",
+    siteName: "FocusForge",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "FocusForge — 60-Day Study Tracker",
+    description: "Track daily sessions, streaks, and analytics for your placement prep.",
+  },
 };
 
 export const viewport: Viewport = {
