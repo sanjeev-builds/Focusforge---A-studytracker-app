@@ -97,6 +97,16 @@ export const MOTIVATIONAL_QUOTES: string[] = [
   "A slow solve today is a fast solve in the interview room.",
   "Your competition is asleep. Your streak isn't.",
   "Log the session. Trust the process. Repeat.",
+  "Hard choices, easy life. Easy choices, hard life.",
+  "The best time to start was yesterday. The second best time is now.",
+  "You are one solved problem closer to your dream company.",
+  "Don't count the days. Make the days count.",
+  "The pain of discipline is nothing compared to the pain of regret.",
+  "Every expert was once a beginner who refused to quit.",
+  "Your GitHub heatmap should be greener than your Netflix history.",
+  "An hour of focused practice beats three hours of distracted scrolling.",
+  "The offer letter won't write itself. Your code will.",
+  "Show up today so tomorrow's you says thank you.",
 ];
 
 export const BLOCK_COLOR_PALETTE = SUBJECT_COLOR_TOKENS;

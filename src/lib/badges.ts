@@ -39,6 +39,13 @@ export const BADGE_DEFS: BadgeDef[] = [
     check: (ctx) => ctx.longestStreak >= 14,
   },
   {
+    id: "streak-21",
+    title: "Habit Forged",
+    description: "21-day streak — the habit is now part of you.",
+    icon: "Zap",
+    check: (ctx) => ctx.longestStreak >= 21,
+  },
+  {
     id: "streak-30",
     title: "30 Day Streak",
     description: "Reach a 30-day streak of fully completed days.",
