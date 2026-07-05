@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import { StudyTrackerProvider } from "@/components/StudyTrackerProvider";
 import { Navbar } from "@/components/layout/Navbar";
+import { Footer } from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
   title: "FocusForge — 60-Day Study Tracker",
@@ -36,6 +37,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <StudyTrackerProvider>
           <Navbar />
           <main className="container py-6 sm:py-8">{children}</main>
+          <Footer />
         </StudyTrackerProvider>
       </body>
     </html>
